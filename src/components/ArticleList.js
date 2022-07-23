@@ -15,10 +15,12 @@ function ArticleList({posts}){
         minutes={post.minutes} 
         date={post.date}
         /> )
+        
 
     return (
         <main>
             {postArray}
+          
         </main>
 
     )
